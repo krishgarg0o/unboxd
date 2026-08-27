@@ -73,8 +73,8 @@ export default function Home() {
               {[
                 { relation: 'Sister', img: 'https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600&auto=format&fit=crop' },
                 { relation: 'Brother', img: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=600&auto=format&fit=crop' },
-                { relation: 'Partner', img: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=600&auto=format&fit=crop' },
-                { relation: 'Best Friend', img: 'https://images.unsplash.com/photo-1529156069898-49953eb1b5ce?q=80&w=600&auto=format&fit=crop' }
+                { relation: 'Partner', img: '/partner.jpeg' },
+                { relation: 'Best Friend', img: '/best-friend.jpeg' }
               ].map(({ relation, img }) => (
                 <Link href={`/gift-ideas?for=${relation}`} key={relation} className="min-w-[200px] md:min-w-0 flex-shrink-0 group block">
                   <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 bg-[var(--color-brand-beige)]">
