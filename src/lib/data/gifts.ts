@@ -70,7 +70,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1627993077309-847248107573?q=80&w=600&auto=format&fit=crop", // passport / leather
     price: 1200,
     priceRange: "₹1,000–₹2,500",
-    relationships: ["Brother", "Sister", "Partner", "Best Friend", "Girlfriend", "Boyfriend"],
+    relationships: ["Sister", "Partner", "Best Friend", "Girlfriend", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Graduation"],
     personalities: ["Adventurous", "Minimalist", "Fashion-forward"],
     interests: ["Travel", "Fashion"],
@@ -102,7 +102,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=600&auto=format&fit=crop", // mug
     price: 2800,
     priceRange: "₹2,500–₹5,000",
-    relationships: ["Partner", "Parent", "Colleague", "Brother", "Dad", "Boyfriend"],
+    relationships: ["Partner", "Parent", "Colleague", "Dad", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Father's Day"],
     personalities: ["Tech lover", "Ambitious", "Minimalist"],
     interests: ["Coffee", "Tech"],
@@ -166,7 +166,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=600&auto=format&fit=crop", // plant
     price: 250,
     priceRange: "Under ₹300",
-    relationships: ["Colleague", "Friend", "Brother", "Sister"],
+    relationships: ["Colleague", "Friend", "Sister"],
     occasions: ["Just Because", "Birthday"],
     personalities: ["Cozy", "Minimalist"],
     interests: ["Art", "Photography"],
@@ -189,6 +189,54 @@ export const gifts: Gift[] = [
     giftTypes: ["Sentimental", "Experience", "Luxury"],
     personalised: false,
     effortLevel: ["I want to make it really special."],
+    externalUrl: "#"
+  },
+  {
+    id: "g11",
+    name: "Hot Wheels Car Bouquet",
+    description: "A fun and unique bouquet made entirely of Hot Wheels cars.",
+    image: "/hotwheels.jpg",
+    price: 1500,
+    priceRange: "₹1,000–₹2,500",
+    relationships: ["Brother", "Boyfriend", "Best Friend"],
+    occasions: ["Birthday", "Graduation", "Just Because"],
+    personalities: ["Fun-loving", "Adventurous"],
+    interests: ["Gaming", "Sports"],
+    giftTypes: ["Fun", "Surprise Hamper", "Creative"],
+    personalised: false,
+    effortLevel: ["I’ll put in a little effort.", "I want to make it really special."],
+    externalUrl: "#"
+  },
+  {
+    id: "g12",
+    name: "Silver & Gold Knot Bracelet",
+    description: "A stylish two-tone metal knot bracelet.",
+    image: "/bracelet.jpg",
+    price: 3200,
+    priceRange: "₹2,500–₹5,000",
+    relationships: ["Brother", "Partner", "Boyfriend"],
+    occasions: ["Birthday", "Graduation", "Anniversary"],
+    personalities: ["Fashion-forward", "Minimalist"],
+    interests: ["Fashion"],
+    giftTypes: ["Luxury", "Personalised", "Sentimental"],
+    personalised: false,
+    effortLevel: ["I’ll put in a little effort."],
+    externalUrl: "#"
+  },
+  {
+    id: "g13",
+    name: "Brother Photo Collage Frame",
+    description: "A custom photo collage capturing your best sibling moments.",
+    image: "/collage.jpg",
+    price: 899,
+    priceRange: "₹500–₹1,000",
+    relationships: ["Brother"],
+    occasions: ["Birthday", "Friendship Day", "Just Because"],
+    personalities: ["Sentimental", "Cozy"],
+    interests: ["Photography", "Art"],
+    giftTypes: ["Personalised", "Sentimental", "Cute"],
+    personalised: true,
+    effortLevel: ["I want to make it really special.", "I want them to cry happy tears."],
     externalUrl: "#"
   }
 ];
