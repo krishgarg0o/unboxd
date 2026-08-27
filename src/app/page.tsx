@@ -20,7 +20,7 @@ export default function Home() {
         <section className="relative min-h-[90vh] flex items-center justify-start overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image 
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCi2zYdb8ISxVg1mivTpIjqeptwa115PR_SfzOgotbA&s=10" 
+              src="/hero-bg.jpg" 
               alt="Premium Gifting Background"
               fill
               className="object-cover object-right md:object-[80%_center]"
@@ -61,7 +61,7 @@ export default function Home() {
         </section>
 
         {/* Quick Category Section */}
-        <section className="py-16 bg-white">
+        <section className="py-16 bg-[var(--color-brand-cream)]">
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex items-end justify-between mb-10">
               <h2 className="font-serif text-3xl md:text-4xl font-bold text-[var(--color-brand-charcoal)]">
@@ -134,7 +134,7 @@ export default function Home() {
         </section>
 
         {/* Gift Finder */}
-        <section className="py-12 bg-white border-y border-[var(--color-brand-taupe)]/20">
+        <section className="py-12 bg-[var(--color-brand-cream)] border-y border-[var(--color-brand-taupe)]/20">
           <GiftFinder />
         </section>
 
@@ -166,7 +166,7 @@ export default function Home() {
         </section>
 
         {/* Trending Right Now */}
-        <section className="py-20 bg-white">
+        <section className="py-20 bg-[var(--color-brand-cream)]">
           <div className="container mx-auto px-4 md:px-6">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[var(--color-brand-charcoal)] mb-10">
               People Are Gifting These Right Now
