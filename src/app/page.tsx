@@ -31,18 +31,8 @@ export default function Home() {
           </div>
           
           <div className="container mx-auto px-4 md:px-12 relative z-10 flex flex-col items-start text-left pt-20 pb-16">
-            <div className="mb-6">
-              <Image 
-                src="/logo.png" 
-                alt="UNBOXD Logo" 
-                width={180} 
-                height={60} 
-                className="h-10 w-auto object-contain"
-                priority
-              />
-            </div>
             <p className="text-[var(--color-brand-charcoal)] font-semibold text-xl md:text-2xl mb-8">
-              A premium gifting discovery platform.
+              Making thoughtful gifting effortless.
             </p>
             
             <h1 className="font-serif text-6xl md:text-8xl lg:text-[110px] font-bold text-[var(--color-brand-charcoal)] leading-tight tracking-tight mb-12">
