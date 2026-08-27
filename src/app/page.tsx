@@ -20,7 +20,7 @@ export default function Home() {
         <section className="relative min-h-[90vh] flex items-center justify-start overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image 
-              src="/hero-bg.jpg" 
+              src="/hero-bg.jpeg" 
               alt="Premium Gifting Background"
               fill
               className="object-cover object-right md:object-[80%_center]"
