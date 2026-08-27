@@ -4,11 +4,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 const occasions = [
-  { name: "Birthday", image: "/birthday.jpeg" },
+  { name: "Birthday", image: "/birthday.jpg" },
   { name: "Anniversary", image: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=600&auto=format&fit=crop" },
   { name: "Valentine’s Day", image: "https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=600&auto=format&fit=crop" },
-  { name: "Friendship Day", image: "/friendship-day.jpeg" },
-  { name: "Graduation", image: "/graduation.jpeg" },
+  { name: "Friendship Day", image: "/friendship-day.jpg" },
+  { name: "Graduation", image: "/graduation.jpg" },
   { name: "Just Because", image: "https://images.unsplash.com/photo-1512418490979-92798cec1380?q=80&w=600&auto=format&fit=crop" },
 ];
 
