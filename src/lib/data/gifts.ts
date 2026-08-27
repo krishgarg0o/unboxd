@@ -38,7 +38,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=600&auto=format&fit=crop", // picture frame
     price: 499,
     priceRange: "₹300–₹500",
-    relationships: ["Sister", "Best Friend", "Partner", "Parent", "Girlfriend", "Boyfriend"],
+    relationships: ["Best Friend", "Partner", "Parent", "Girlfriend", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Friendship Day", "Just Because"],
     personalities: ["Sentimental", "Cozy"],
     interests: ["Photography", "Art", "Travel"],
@@ -70,7 +70,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1627993077309-847248107573?q=80&w=600&auto=format&fit=crop", // passport / leather
     price: 1200,
     priceRange: "₹1,000–₹2,500",
-    relationships: ["Sister", "Partner", "Best Friend", "Girlfriend", "Boyfriend"],
+    relationships: ["Partner", "Best Friend", "Girlfriend", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Graduation"],
     personalities: ["Adventurous", "Minimalist", "Fashion-forward"],
     interests: ["Travel", "Fashion"],
@@ -86,7 +86,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?q=80&w=600&auto=format&fit=crop", // candles
     price: 450,
     priceRange: "₹300–₹500",
-    relationships: ["Sister", "Best Friend", "Someone Special", "Colleague", "Mom", "Girlfriend"],
+    relationships: ["Best Friend", "Someone Special", "Colleague", "Mom", "Girlfriend"],
     occasions: ["Birthday", "Diwali", "Just Because", "Housewarming"],
     personalities: ["Cozy", "Sentimental"],
     interests: ["Books", "Beauty", "Art"],
@@ -166,7 +166,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1485955900006-10f4d324d411?q=80&w=600&auto=format&fit=crop", // plant
     price: 250,
     priceRange: "Under ₹300",
-    relationships: ["Colleague", "Friend", "Sister"],
+    relationships: ["Colleague", "Friend"],
     occasions: ["Just Because", "Birthday"],
     personalities: ["Cozy", "Minimalist"],
     interests: ["Art", "Photography"],
