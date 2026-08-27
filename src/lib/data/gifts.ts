@@ -38,7 +38,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=600&auto=format&fit=crop", // picture frame
     price: 499,
     priceRange: "₹300–₹500",
-    relationships: ["Best Friend", "Partner", "Parent", "Girlfriend", "Boyfriend"],
+    relationships: ["Best Friend", "Parent", "Girlfriend", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Friendship Day", "Just Because"],
     personalities: ["Sentimental", "Cozy"],
     interests: ["Photography", "Art", "Travel"],
@@ -70,7 +70,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1627993077309-847248107573?q=80&w=600&auto=format&fit=crop", // passport / leather
     price: 1200,
     priceRange: "₹1,000–₹2,500",
-    relationships: ["Partner", "Best Friend", "Girlfriend", "Boyfriend"],
+    relationships: ["Best Friend", "Girlfriend", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Graduation"],
     personalities: ["Adventurous", "Minimalist", "Fashion-forward"],
     interests: ["Travel", "Fashion"],
@@ -102,7 +102,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=600&auto=format&fit=crop", // mug
     price: 2800,
     priceRange: "₹2,500–₹5,000",
-    relationships: ["Partner", "Parent", "Colleague", "Dad", "Boyfriend"],
+    relationships: ["Parent", "Colleague", "Dad", "Boyfriend"],
     occasions: ["Birthday", "Anniversary", "Father's Day"],
     personalities: ["Tech lover", "Ambitious", "Minimalist"],
     interests: ["Coffee", "Tech"],
