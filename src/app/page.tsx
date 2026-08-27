@@ -9,7 +9,6 @@ import { GiftCard } from "@/components/ui/GiftCard";
 
 export default function Home() {
   const trendingGifts = gifts.slice(0, 4);
-  const under500Gifts = gifts.filter(g => g.price < 500).slice(0, 4);
 
   return (
     <>
@@ -136,33 +135,6 @@ export default function Home() {
         {/* Gift Finder */}
         <section className="py-12 bg-[var(--color-brand-cream)] border-y border-[var(--color-brand-taupe)]/20">
           <GiftFinder />
-        </section>
-
-        {/* Gifts Under ₹500 */}
-        <section className="py-20 bg-[var(--color-brand-cream)]">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="mb-10 text-center md:text-left flex flex-col md:flex-row md:items-end justify-between gap-4">
-              <div>
-                <h2 className="font-serif text-3xl md:text-4xl font-bold text-[var(--color-brand-charcoal)] mb-3">
-                  Thoughtful Doesn’t Have to Be Expensive.
-                </h2>
-                <p className="text-[var(--color-brand-charcoal)]/70 max-w-2xl text-lg">
-                  Gift ideas under ₹500 that don’t feel like you spent five minutes choosing them.
-                </p>
-              </div>
-              <Link href="/gift-ideas#under-500">
-                <Button variant="ghost" className="font-bold text-[var(--color-brand-teal)] hover:bg-[var(--color-brand-teal)]/10">
-                  View All Under ₹500 &rarr;
-                </Button>
-              </Link>
-            </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {under500Gifts.map(gift => (
-                <GiftCard key={gift.id} gift={gift} />
-              ))}
-            </div>
-          </div>
         </section>
 
         {/* Trending Right Now */}

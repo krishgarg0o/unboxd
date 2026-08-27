@@ -4,7 +4,6 @@ import { gifts } from "@/lib/data/gifts";
 import { GiftCard } from "@/components/ui/GiftCard";
 
 export default function GiftIdeasPage() {
-  const under500Gifts = gifts.filter(g => g.price < 500);
   const sisterGifts = gifts.filter(g => g.relationships.includes("Sister"));
   const brotherGifts = gifts.filter(g => g.relationships.includes("Brother"));
   const partnerGifts = gifts.filter(g => g.relationships.includes("Partner"));
@@ -25,15 +24,6 @@ export default function GiftIdeasPage() {
           </div>
           
           <div className="space-y-16">
-            <section id="under-500" className="scroll-mt-24">
-              <h2 className="font-serif text-3xl font-bold text-[var(--color-brand-charcoal)] mb-6 border-b border-[var(--color-brand-taupe)]/20 pb-4">
-                Gifts Under ₹500
-              </h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {under500Gifts.map(gift => <GiftCard key={gift.id} gift={gift} />)}
-              </div>
-            </section>
-
             <section id="sister" className="scroll-mt-24">
               <h2 className="font-serif text-3xl font-bold text-[var(--color-brand-charcoal)] mb-6 border-b border-[var(--color-brand-taupe)]/20 pb-4">
                 Gifts for Sister
