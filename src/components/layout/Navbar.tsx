@@ -14,7 +14,6 @@ const navLinks = [
   { name: "Find a Gift", href: "/#gift-finder" },
   { name: "Gift Ideas", href: "/gift-ideas" },
   { name: "Occasions", href: "/occasions" },
-  { name: "Gift Guides", href: "/gift-guides" },
   { name: "About Us", href: "/about" },
 ];
 

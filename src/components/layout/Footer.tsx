@@ -24,7 +24,6 @@ export function Footer() {
               <li><Link href="/#gift-finder" className="hover:text-[var(--color-brand-orange)] transition-colors">Find a Gift</Link></li>
               <li><Link href="/gift-ideas" className="hover:text-[var(--color-brand-orange)] transition-colors">Gift Ideas</Link></li>
               <li><Link href="/occasions" className="hover:text-[var(--color-brand-orange)] transition-colors">Occasions</Link></li>
-              <li><Link href="/gift-guides" className="hover:text-[var(--color-brand-orange)] transition-colors">Gift Guides</Link></li>
             </ul>
           </div>
 
