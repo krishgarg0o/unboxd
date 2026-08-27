@@ -64,9 +64,6 @@ export function GiftCard({ gift, explanation, matchScore }: GiftCardProps) {
           <h3 className="font-serif font-bold text-lg text-[var(--color-brand-charcoal)] leading-tight">
             {gift.name}
           </h3>
-          <span className="font-semibold text-[var(--color-brand-teal)] whitespace-nowrap">
-            ₹{gift.price}
-          </span>
         </div>
         
         <p className="text-sm text-[var(--color-brand-charcoal)]/70 mb-4 line-clamp-2">

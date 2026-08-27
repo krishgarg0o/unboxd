@@ -76,7 +76,7 @@ export default function Home() {
                 { relation: 'Partner', img: '/partner.jpeg' },
                 { relation: 'Best Friend', img: '/best-friend.jpeg' }
               ].map(({ relation, img }) => (
-                <Link href={`/gift-ideas?for=${relation}`} key={relation} className="min-w-[200px] md:min-w-0 flex-shrink-0 group block">
+                <Link href={`/gift-ideas#${relation.toLowerCase().replace(' ', '-')}`} key={relation} className="min-w-[200px] md:min-w-0 flex-shrink-0 group block">
                   <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 bg-[var(--color-brand-beige)]">
                     <Image 
                       src={img}
@@ -150,7 +150,7 @@ export default function Home() {
                   Gift ideas under ₹500 that don’t feel like you spent five minutes choosing them.
                 </p>
               </div>
-              <Link href="/gift-ideas?budget=under-500">
+              <Link href="/gift-ideas#under-500">
                 <Button variant="ghost" className="font-bold text-[var(--color-brand-teal)] hover:bg-[var(--color-brand-teal)]/10">
                   View All Under ₹500 &rarr;
                 </Button>
