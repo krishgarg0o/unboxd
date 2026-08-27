@@ -238,5 +238,53 @@ export const gifts: Gift[] = [
     personalised: true,
     effortLevel: ["I want to make it really special.", "I want them to cry happy tears."],
     externalUrl: "#"
+  },
+  {
+    id: "g14",
+    name: "Memory Shadow Box",
+    description: "A beautiful display case to hold your favorite photos, tickets, and little keepsakes.",
+    image: "/shadowbox.jpeg",
+    price: 1200,
+    priceRange: "₹1,000–₹2,500",
+    relationships: ["Sister", "Best Friend", "Partner"],
+    occasions: ["Birthday", "Anniversary", "Just Because"],
+    personalities: ["Sentimental", "Creative"],
+    interests: ["Photography", "Art"],
+    giftTypes: ["Personalised", "Sentimental", "Handmade"],
+    personalised: true,
+    effortLevel: ["I want to make it really special.", "I want them to cry happy tears."],
+    externalUrl: "#"
+  },
+  {
+    id: "g15",
+    name: "52 Reasons I Love You Cards",
+    description: "A deck of playing cards customized with 52 unique reasons why you love them.",
+    image: "/52reasons.jpeg",
+    price: 499,
+    priceRange: "₹300–₹500",
+    relationships: ["Sister", "Partner", "Best Friend"],
+    occasions: ["Birthday", "Valentine’s Day", "Just Because"],
+    personalities: ["Sentimental", "Cozy"],
+    interests: ["Art"],
+    giftTypes: ["Sentimental", "Handmade", "Cute"],
+    personalised: true,
+    effortLevel: ["I want to make it really special.", "I want them to cry happy tears."],
+    externalUrl: "#"
+  },
+  {
+    id: "g16",
+    name: "Custom Photo Puzzle",
+    description: "Your favorite picture together turned into a fun puzzle they can put together.",
+    image: "/photopuzzle.jpeg",
+    price: 799,
+    priceRange: "₹500–₹1,000",
+    relationships: ["Sister", "Brother", "Partner", "Best Friend"],
+    occasions: ["Birthday", "Friendship Day", "Anniversary"],
+    personalities: ["Fun-loving", "Sentimental"],
+    interests: ["Gaming", "Photography"],
+    giftTypes: ["Fun", "Personalised", "Sentimental"],
+    personalised: true,
+    effortLevel: ["I’ll put in a little effort.", "I want to make it really special."],
+    externalUrl: "#"
   }
 ];
