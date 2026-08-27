@@ -150,7 +150,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1506784365847-bbad939e9335?q=80&w=600&auto=format&fit=crop", // planner
     price: 650,
     priceRange: "₹500–₹1,000",
-    relationships: ["Sister", "Colleague", "Mom"],
+    relationships: ["Colleague", "Mom"],
     occasions: ["Birthday", "Graduation", "Just Because", "New Year"],
     personalities: ["Ambitious", "Creative", "Minimalist"],
     interests: ["Books", "Art"],
@@ -182,7 +182,7 @@ export const gifts: Gift[] = [
     image: "https://images.unsplash.com/photo-1516961642265-531546e84af2?q=80&w=600&auto=format&fit=crop", // camera
     price: 3500,
     priceRange: "₹2,500–₹5,000",
-    relationships: ["Partner", "Sister", "Boyfriend", "Girlfriend"],
+    relationships: ["Partner", "Boyfriend", "Girlfriend"],
     occasions: ["Birthday", "Graduation"],
     personalities: ["Creative", "Fashion-forward", "Adventurous"],
     interests: ["Photography", "Fashion", "Art"],
@@ -349,6 +349,54 @@ export const gifts: Gift[] = [
     giftTypes: ["Fun", "Cute", "Sentimental"],
     personalised: false,
     effortLevel: ["I’ll put in a little effort."],
+    externalUrl: "#"
+  },
+  {
+    id: "g21",
+    name: "Pink Bow Pajama Set",
+    description: "An adorable, cozy pink and white striped pajama set covered in cute bows.",
+    image: "/sisterpjs.jpeg",
+    price: 1299,
+    priceRange: "₹1,000–₹2,500",
+    relationships: ["Sister"],
+    occasions: ["Birthday", "Just Because"],
+    personalities: ["Cozy", "Fashion-forward"],
+    interests: ["Fashion"],
+    giftTypes: ["Cute", "Useful"],
+    personalised: false,
+    effortLevel: ["I’ll put in a little effort."],
+    externalUrl: "#"
+  },
+  {
+    id: "g22",
+    name: "Ultimate Pink Beauty Hamper",
+    description: "A huge, beautifully curated hamper full of pink makeup, skincare, and beauty treats.",
+    image: "/beautyhamper.jpeg",
+    price: 2499,
+    priceRange: "₹1,000–₹2,500",
+    relationships: ["Sister"],
+    occasions: ["Birthday", "Graduation"],
+    personalities: ["Creative", "Cozy"],
+    interests: ["Beauty"],
+    giftTypes: ["Surprise Hamper", "Luxury"],
+    personalised: false,
+    effortLevel: ["I want to make it really special."],
+    externalUrl: "#"
+  },
+  {
+    id: "g23",
+    name: "Birthday Milestone Shadow Box",
+    description: "A custom birthday shadow box displaying favorite photos and birthday memories.",
+    image: "/sistershadowbox.jpeg",
+    price: 999,
+    priceRange: "₹500–₹1,000",
+    relationships: ["Sister"],
+    occasions: ["Birthday"],
+    personalities: ["Sentimental"],
+    interests: ["Photography", "Art"],
+    giftTypes: ["Personalised", "Sentimental", "Handmade"],
+    personalised: true,
+    effortLevel: ["I want them to cry happy tears.", "I want to make it really special."],
     externalUrl: "#"
   }
 ];
