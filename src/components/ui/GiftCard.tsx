@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Heart } from "lucide-react";
 import { Gift } from "@/lib/data/gifts";
-import { Button } from "./Button";
 import { useState, useEffect } from "react";
 
 interface GiftCardProps {
@@ -81,13 +80,6 @@ export function GiftCard({ gift, explanation, matchScore }: GiftCardProps) {
           </div>
         )}
 
-        <div className="mt-auto pt-4 flex gap-2 w-full">
-          <Button className="w-full rounded-xl" asChild>
-            <a href={gift.externalUrl} target="_blank" rel="noopener noreferrer">
-              Explore Gift &rarr;
-            </a>
-          </Button>
-        </div>
       </div>
     </div>
   );

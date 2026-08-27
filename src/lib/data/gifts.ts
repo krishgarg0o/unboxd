@@ -32,22 +32,6 @@ export interface Gift {
 
 export const gifts: Gift[] = [
   {
-    id: "g1",
-    name: "Personalised Memory Frame",
-    description: "A beautiful wooden frame displaying your favourite memories together.",
-    image: "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=600&auto=format&fit=crop", // picture frame
-    price: 499,
-    priceRange: "₹300–₹500",
-    relationships: ["Parent", "Girlfriend", "Boyfriend"],
-    occasions: ["Birthday", "Anniversary", "Friendship Day", "Just Because"],
-    personalities: ["Sentimental", "Cozy"],
-    interests: ["Photography", "Art", "Travel"],
-    giftTypes: ["Personalised", "Sentimental", "Cute"],
-    personalised: true,
-    effortLevel: ["I want to make it really special.", "I want them to cry happy tears."],
-    externalUrl: "#"
-  },
-  {
     id: "g2",
     name: "Curated Snack & Coffee Box",
     description: "An artisanal selection of gourmet coffees and sweet treats.",
@@ -61,54 +45,6 @@ export const gifts: Gift[] = [
     giftTypes: ["Surprise Hamper", "Fun", "Useful"],
     personalised: false,
     effortLevel: ["I need it ASAP.", "I’ll put in a little effort."],
-    externalUrl: "#"
-  },
-  {
-    id: "g3",
-    name: "Minimalist Leather Passport Holder",
-    description: "A sleek, monogrammed passport holder for their next adventure.",
-    image: "https://images.unsplash.com/photo-1627993077309-847248107573?q=80&w=600&auto=format&fit=crop", // passport / leather
-    price: 1200,
-    priceRange: "₹1,000–₹2,500",
-    relationships: ["Girlfriend", "Boyfriend"],
-    occasions: ["Birthday", "Anniversary", "Graduation"],
-    personalities: ["Adventurous", "Minimalist", "Fashion-forward"],
-    interests: ["Travel", "Fashion"],
-    giftTypes: ["Useful", "Personalised", "Luxury"],
-    personalised: true,
-    effortLevel: ["I’ll put in a little effort.", "I want to make it really special."],
-    externalUrl: "#"
-  },
-  {
-    id: "g4",
-    name: "Hand-poured Soy Candle Set",
-    description: "Aesthetic, cozy candles that smell like a warm hug.",
-    image: "https://images.unsplash.com/photo-1602928321679-560bb453f190?q=80&w=600&auto=format&fit=crop", // candles
-    price: 450,
-    priceRange: "₹300–₹500",
-    relationships: ["Someone Special", "Colleague", "Mom", "Girlfriend"],
-    occasions: ["Birthday", "Diwali", "Just Because", "Housewarming"],
-    personalities: ["Cozy", "Sentimental"],
-    interests: ["Books", "Beauty", "Art"],
-    giftTypes: ["Handmade", "Cute", "Sentimental"],
-    personalised: false,
-    effortLevel: ["I need it ASAP.", "I’ll put in a little effort."],
-    externalUrl: "#"
-  },
-  {
-    id: "g5",
-    name: "Smart Temperature Control Mug",
-    description: "Keeps their coffee perfectly hot for hours.",
-    image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=600&auto=format&fit=crop", // mug
-    price: 2800,
-    priceRange: "₹2,500–₹5,000",
-    relationships: ["Parent", "Colleague", "Dad", "Boyfriend"],
-    occasions: ["Birthday", "Anniversary", "Father's Day"],
-    personalities: ["Tech lover", "Ambitious", "Minimalist"],
-    interests: ["Coffee", "Tech"],
-    giftTypes: ["Useful", "Luxury"],
-    personalised: false,
-    effortLevel: ["I need it ASAP."],
     externalUrl: "#"
   },
   {
@@ -339,7 +275,7 @@ export const gifts: Gift[] = [
     id: "g20",
     name: "Certified Real One Newspaper Print",
     description: "An iconic Monica & Rachel styled 'Certified Real One' custom newspaper print.",
-    image: "/certifiedrealone.jpeg",
+    image: "/newspaper.jpeg",
     price: 499,
     priceRange: "₹300–₹500",
     relationships: ["Best Friend"],
