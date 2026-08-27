@@ -337,8 +337,8 @@ export const gifts: Gift[] = [
   },
   {
     id: "g20",
-    name: "Certified Real One Poster",
-    description: "An iconic Monica & Rachel styled 'Certified Real One' best friend poster.",
+    name: "Certified Real One Newspaper Print",
+    description: "An iconic Monica & Rachel styled 'Certified Real One' custom newspaper print.",
     image: "/certifiedrealone.jpeg",
     price: 499,
     priceRange: "₹300–₹500",
